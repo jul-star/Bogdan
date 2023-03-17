@@ -1,0 +1,10 @@
+f = ['a', 'b', 'c']
+q = [1, 2, 3]
+fq = zip(f, q)
+print('fq= ', fq)
+l = list(fq)
+print("L=", l)
+d_fq = dict(fq)
+print('d=', d_fq)
+d_l = dict(l)
+print('d_l = ', d_l)
